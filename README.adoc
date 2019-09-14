@@ -191,4 +191,4 @@ This is more of an activity than a workflow, though some interaction is expected
 For instance, if an application stack supports connection to a remote database, the mapping of connecivity parameters to the cluster may entail a combination of hostname and ports as config-maps and database credentials as secrets. The application architect will have to ensure the operations team has the proper setup of those parameters in the cluster.
 
 ---
-This concludes the overview of the Kabanero architecture. Head back to the https://kabanero.io[Kabanero.io website] for deeper dives into Kabanero component and "Getting Started" guides that will get you up and running with hands-on examples of the workflows introduced here.
+This concludes the overview of the Kabanero architecture. Head back to the https://kabanero.io[Kabanero.io website] for deeper dives into Kabanero components and "Getting Started" guides that will get you up and running with hands-on examples of the workflows introduced here.
