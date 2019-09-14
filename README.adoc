@@ -22,7 +22,7 @@
 :linkattrs:
 :toc:
 :toclevels: 5
-:page-published: false
+:page-published: true
 = Architecture and Development Workflows
 
 [.hidden]
