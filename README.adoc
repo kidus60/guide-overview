@@ -176,7 +176,7 @@ At that point, Kabanero Foundation will detect the code delivery and execute a p
 
 After several iterations of the previous workflows, application developers will have provided valuable feedback to the application architect responsible for a given collection.
 
-The overall process for modifying a stack is well explained in the https://appsody.dev/docs/stacks/stacks-overview[corresponding section] of the Appsody website.
+The overall process for modifying a stack is explained in the https://appsody.dev/docs/stacks/stacks-overview[corresponding section] of the Appsody website.
 
 At this point, the application architect must judge the nature of the changes in regards to proper https://semver.org/[semantic versioning] and decide on the new version number for the stack. Kabanero collections are expected to have application templates set to adopt all new patches automatically, but set to require a manual change to the Kabanero metadata stored in the application directory in order to adopt minor and major versions. 
 
