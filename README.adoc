@@ -6,6 +6,8 @@ permalink: /guides/architecture-overview/
 :page-description: Overview of Architecture and Development Workflows
 :page-title: Architecture and Development Workflows
 :linkattrs:
+= Architecture and Development Workflows    
+
 ////
 Copyright 2019 IBM Corporation and others.
 
@@ -21,10 +23,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ////
-= Architecture and Development Workflows    
-
-[.hidden]
-NOTE: This repository contains the guide documentation source. To view the guide in published form, view it on the https://kabanero.io/guides/{projectid}.html[website].
 
 Kabanero is designed to deliver an integrated workflow for application architects, application developers, and operations teams, allowing them to focus more intently in their respective area of expertise.
 
