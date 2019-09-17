@@ -60,11 +60,11 @@ Both Appsody and the local IDE extensions of Codewind depend on a running docker
 
 The *Kabanero Foundation* sits on the opposite side of the developer experience, as a managed pipeline that handles the workflows after application developers deliver their source code to a remote repository. Kabanero Foundation is a set of Kubernetes components covering the disciplines of serving applications (https://knative.dev/[Knative]), service mesh (https://istio.io/[Istio]), build (https://cloud.google.com/tekton/[Tekton]), and deployment (https://github.com/operator-framework[Operator Framework]).
 
-With these componentes deployed to a Kubernetes cluster, the Kabanero Foundation monitors changes to source code repositories (such as git) and triggers pipeline runs that will extract the source code, reassemble it according to the structure and runtime specifications of the underlying Kabanero Collection, execute all the build and verification steps, and then make the final application container pods available in the cluster.
+With these components deployed to a Kubernetes cluster, the Kabanero Foundation monitors changes to source code repositories (such as git) and triggers pipeline runs that will extract the source code, reassemble it according to the structure and runtime specifications of the underlying Kabanero Collection, execute all the build and verification steps, and then make the final application container pods available in the cluster.
 
 === Kabanero Unified Experience
 
-Applications in a production environment are subject to common operational policies and lifecyle operations. Kabanero combines a set of open-source projects to support operations teams in those activities, ranging from the Kubernetes CLI for managing the Kabanero custom resources, passing through the upcoming Kabanero CLI, all to way to Razee, a user interface for managing deployments across Kubernetes clusters.
+Applications in a production environment are subject to common operational policies and lifecycle operations. Kabanero combines a set of open-source projects to support operations teams in those activities, ranging from the Kubernetes CLI for managing the Kabanero custom resources, passing through the upcoming Kabanero CLI, all to way to Razee, a user interface for managing deployments across Kubernetes clusters.
 
 === Collection Stacks
 
@@ -129,7 +129,7 @@ Note that https://semver.org/[patches] to the Kabanero collection may be picked 
 
 === Test build (application developer)
 
-An application stack can be setup differently between the "Rapid Local Development" and the "Build and Deploy" modse, so application developers can anticipate and ward off eventual problems in an actual pipeline deployment by running a local build before delivering their code changes.
+An application stack can be setup differently between the "Rapid Local Development" and the "Build and Deploy" modes, so application developers can anticipate and ward off eventual problems in an actual pipeline deployment by running a local build before delivering their code changes.
 
 
 ----
@@ -161,8 +161,8 @@ Similarly to testing a local build, application developers can preempt problems 
 
 Assuming the observance of proper controls and operational policies for the target Kubernetes cluster, "appsody deploy" can be used to deploy an application directly to that cluster. For actual production environments, access to the cluster will likely be restricted to an automated pipeline like the one included in Kabanero.
 
-=== Deliver source code changes (application developer, popeline)
-
+=== Deliver source code changes (application developer, pipeline)
+    
 With all code modifications, local build, and local deployment in place, this is the culmination of a local development session, which ends with a code push towards the application source code repository.
 
 At that point, Kabanero Foundation will detect the code delivery and execute a pipeline run that will ultimately result in the publication of the finished application.
@@ -184,7 +184,7 @@ https://github.com/appsody/stacks/blob/master/RELEASE.md#appsody-stacks-release-
 
 This is more of an activity than a workflow, though some interaction is expected between the application architect and the operations team in order to align the cluster configuration with the application requirements, as well as document the operational aspects of the application so that they can be incorporated into operational runbooks.
 
-For instance, if an application stack supports connection to a remote database, the mapping of connecivity parameters to the cluster may entail a combination of hostname and ports as config-maps and database credentials as secrets. The application architect will have to ensure the operations team has the proper setup of those parameters in the cluster.
+For instance, if an application stack supports connection to a remote database, the mapping of connectivity parameters to the cluster may entail a combination of hostname and ports as config-maps and database credentials as secrets. The application architect will have to ensure the operations team has the proper setup of those parameters in the cluster.
 
 ---
 This concludes the overview of the Kabanero architecture. Head back to the https://kabanero.io[Kabanero.io website] for deeper dives into Kabanero components and "Getting Started" guides that will get you up and running with hands-on examples of the workflows introduced here.
