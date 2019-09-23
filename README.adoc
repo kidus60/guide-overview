@@ -1,5 +1,5 @@
 ---
-permalink: /guides/guide-overview/
+permalink: /guides/overview/
 ---
 :page-layout: guide
 :page-duration: 25 minutes
