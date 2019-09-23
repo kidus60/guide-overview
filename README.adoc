@@ -1,5 +1,5 @@
 ---
-permalink: /guides/architecture-overview/
+permalink: /guides/guide-overview/
 ---
 :page-layout: guide
 :page-duration: 25 minutes
