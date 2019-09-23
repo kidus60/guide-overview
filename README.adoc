@@ -1,6 +1,7 @@
 ---
 permalink: /guides/architecture-overview/
----
+--- 
+:page-github-link: https://github.com/kabanero-io/guide-overview
 :page-layout: guide
 :page-duration: 25 minutes
 :page-description: Overview of Architecture and Development Workflows
